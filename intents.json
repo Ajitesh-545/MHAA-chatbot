@@ -1,0 +1,113 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+      "context_set": ""
+    },
+    {"tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+      "context_set": ""
+    },
+    {"tag": "about",
+      "patterns": ["What does it mean to have a mental illness?","What are mental health problems?", "What is mental illness?"],
+      "responses": ["Mental illnesses are health conditions that disrupt a person thoughts, emotions, relationships, and daily functioning.",
+        "Challenges or problems with your mental health can arise from psychological, biological, and social, issues, as well as life events.",
+        "Mental illness is a general term for a group of illnesses that may include symptoms that can affect a person’s thinking, perceptions, mood or behaviour. Mental illness can make it difficult for someone to cope with work, relationships and other demands."
+
+      ],
+      "context_set": ""
+    },
+    {"tag": "symptoms",
+      "patterns": ["What are some of the warning signs of mental illness?", "What are the symptoms of mental illness","How can i know i have mentall illness?","What are the signs of mental illness?"],
+      "responses": ["Confused thinking Long-lasting sadness or irritability Extreme highs and lows in mood Excessive fear, worrying, or anxiety Social withdrawal Dramatic changes in eating or sleeping habits Strong feelings of anger Delusions or hallucinations",
+      "Signs and symptoms of mental illness can vary, depending on the disorder, circumstances and other factors. Mental illness symptoms can affect emotions, thoughts and behaviors."],
+      "context_set": ""
+    },
+    {"tag": "affects",
+      "patterns": ["Who does mental illness affect?", "whom does it affect?"],
+      "responses": ["It is estimated that mental illness affects 1 in 5 adults in America, and that 1 in 24 adults have a serious mental illness. Mental illness does not discriminate.", 
+        "it can affect anyone, regardless of gender, age, income, social status, ethnicity, religion, sexual orientation, or background."],      
+      "context_set": ""
+    },
+    {"tag": "cure",
+      "patterns": ["How to cure mental illness?", "Can mental illness be cured?","What are the treatment for mental illness?","What are the treatment for mental disorder?","how can i treat mental illness?"],
+      "responses": ["Similarly to how one would treat diabetes with medication and insulin, mental illness is treatable with a combination of medication and social support.",
+        "With the proper treatment, it is very possible for a person with mental illness to be independent and successful.",
+         "Treatments are highly effective, with 70-90 percent of individuals receiving treatment experiencing a reduction in symptoms and an improved quality of life.",
+         "Treatment depends on which mental disorder you have and how serious it is."
+          ],
+      "context_set": ""
+        },
+        
+    {"tag": "help",
+      "patterns": ["How can you help me?", "What is your purpose?", "What can you do for me?", "What kind of bot are you?"],
+      "responses": ["Hi I am Mental health Awareness Assistance", "I am here to help you with Mental health Queries", "Try asking questions about Mental Health and illness"],
+      "context_set": ""
+    },
+    {"tag": "type",
+      "patterns": ["How many types of mental illness are there ?","Is there only one type of mental illness","There are how many types of mental disorder?","what are the kind of mental illness are there?"],
+      "responses": ["There are more than 200 classified forms of mental illness.",
+        "Some of the more common disorders are depression, bipolar disorder, dementia, schizophrenia and anxiety disorders. Symptoms may include changes in mood, personality, personal habits and/or social withdrawal.",
+        "Anxiety disorders, Mood disorders, Psychotic disorders, Eating disorders, Impulse control and addiction disorders, Personality disorders."
+      ],
+      "context_set": ""
+    },
+    {"tag": "anxiety",
+      "patterns": ["What is anxiety disorder?","what do you know about anxiety disorder?","what can you tell me about anixiety disorder?"],
+      "responses": ["People with anxiety disorders respond to certain objects or situations with fear and dread, as well as with physical signs of anxiety or panic, such as a rapid heartbeat and sweating.",
+        "An anxiety disorder is diagnosed if the person's response is not appropriate for the situation, if the person cannot control the response, or if the anxiety interferes with normal functioning.",
+        "Anxiety disorders include generalized anxiety disorder, panic disorder, social anxiety disorder, and specific phobias."
+      ],
+      "context_set": ""
+    },
+    {"tag": "mood",
+      "patterns": ["What is mood disorder?","what do you know about mood disorder?","what can you tell me about mood disorder?"],
+      "responses": ["These disorders, also called affective disorders, involve persistent feelings of sadness or periods of feeling overly happy, or fluctuations from extreme happiness to extreme sadness.",
+        "The most common mood disorders are depression, bipolar disorder, and cyclothymic disorder."
+      ],
+      "context_set": ""
+    },
+    {"tag": "eating",
+      "patterns": ["What is eating disorder?","what do you know about eating disorder?","what can you tell me about eating disorder?"],
+      "responses": ["Eating disorders involve extreme emotions, attitudes, and behaviors involving weight and food. Anorexia nervosa, bulimia nervosa, and binge eating disorder are the most common eating disorders.",
+          "Although the term eating is in the name, eating disorders are about more than food. They’re complex mental health conditions that often require the intervention of medical and psychological experts to alter their course",
+          "Eating disorders are a range of psychological conditions that cause unhealthy eating habits to develop. They might start with an obsession with food, body weight, or body shape."
+      ],
+      "context_set": ""
+    },
+    {"tag": "personality",
+      "patterns": ["What is personality disorder?","what do you know about personality disorder?","what can you tell me about personality disorder?"],
+      "responses": ["People with personality disorders have extreme and inflexible personality traits that are distressing to the person and/or cause problems in work, school, or social relationships.",
+        "In personality disorder, the person's patterns of thinking and behavior significantly differ from the expectations of society and are so rigid that they interfere with the person's normal functioning."
+      ],
+      "context_set": ""
+    },
+    {"tag": "psychologist",
+      "patterns": ["how can psychologist help with mental health","How does a psychologist help someone mental illness?","Can psychologist help in treating mentall illness? "],
+      "responses": ["Psychologists can help people learn to cope with stressful situations, overcome addictions, manage their chronic illnesses, and tests and assessments that can help diagnose a condition or tell more about the way a person thinks, feels, and behaves.",
+        "Practicing psychologists have the professional training and clinical skills to help people learn to cope more effectively with life issues and mental health problems. ","Although the term eating is in the name, eating disorders are about more than food. They’re complex mental health conditions that often require the intervention of medical and psychological experts to alter their course",
+        "Psychologists help by using a variety of techniques based on the best available research and consider someone’s unique values, characteristics, goals, and circumstances."
+      ],
+      "context_set": ""
+    },
+    {"tag": "depression",
+      "patterns": ["what is depression?","what do you know about depression?","what are the symptoms of depression? ", "How do I know i have depression"],
+      "responses": ["Depression (major depressive disorder) is a common and serious medical illness that negatively affects how you feel, the way you think and how you act. Fortunately, it is also treatable.",
+        "Depression causes feelings of sadness and/or a loss of interest in activities you once enjoyed. It can lead to a variety of emotional and physical problems and can decrease your ability to function at work and at home.",
+        "Depression affects an estimated one in 15 adults (6.7%) in any given year. And one in six people (16.6%) will experience depression at some time in their life. Depression can occur at any time, but on average, first appears during the late teens to mid-20s."
+      ],
+      "context_set": ""
+    },
+    {"tag": "depression_cope",
+      "patterns": ["how to cope with depression?","How to treat depression?","How can I cope up with depression? "],
+      "responses": ["Depression is among the most treatable of mental disorders. Between 80% and 90% percent of people with depression eventually respond well to treatment. Almost all patients gain some relief from their symptoms.",
+        "Before a diagnosis or treatment, a health professional should conduct a thorough diagnostic evaluation, including an interview and a physical examination. In some cases, a blood test might be done to make sure the depression is not due to a medical condition like a thyroid problem or a vitamin deficiency (reversing the medical cause would alleviate the depression-like symptoms).",
+        "Getting support plays an essential role in overcoming depression. On your own, it can be difficult to maintain a healthy perspective and sustain the effort required to beat depression."
+      ],
+      "context_set": ""
+    }
+
+    
+  ]
+  }
