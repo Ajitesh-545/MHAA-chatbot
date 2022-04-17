@@ -1,4 +1,5 @@
 import nltk
+#nltk.download('all')
 from nltk import probability 
 from nltk.stem import WordNetLemmatizer 
 import numpy as np
@@ -8,7 +9,8 @@ import pickle
 from tensorflow.keras.models import load_model
 from tensorflow.python.framework.op_def_registry import get
 
-from flask import Flask, render_template, request
+
+#from flask import Flask, render_template, request
 
 lemmatizer=WordNetLemmatizer()
 
@@ -56,7 +58,7 @@ def get_response(intents_list,intents_json):
             break
     return result
     
-app = Flask(__name__)
+"""app = Flask(__name__)
 @app.route("/")
 def index():
     return render_template("/index.html")
@@ -72,5 +74,11 @@ def get_bot_response():
 
     
 if __name__ == "__main__":
-    app.run(debug=True)
-    
+    app.run(debug=True)"""
+
+while(True):
+    userText=input()
+    ints=predict_class(userText.lower())
+    res=get_response(ints,intents)
+    print(res)
+    print(ints)
